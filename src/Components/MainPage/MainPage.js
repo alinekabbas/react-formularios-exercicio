@@ -30,7 +30,7 @@ function MainPage() {
           name='modulos'
           value={form.modulos}
           onChange={onChangeForm}
-          pattern='[2-9]'
+          pattern='[0-9]{2,}'
           title='O número de módulos não pode ser menor que 2'
           required
         />
